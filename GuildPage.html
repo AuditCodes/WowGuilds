@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Warcraft Guild *******</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+<style>
+* {box-sizing: border-box;}
+
+body {
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #696969;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.topnav a.active {
+  background-color: #A9A9A9;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 12px;
+  text-align: center;
+}
+
+.topnav-right {
+  float: right;
+}
+
+.topnav .search-container {
+  float: left;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 6px;
+  font-size: 15px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 6px;
+  margin-right: 20px;
+  background: #ddd;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+
+@media screen and (max-width: 700px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;
+  }
+}
+
+</style>
+</head>
+
+<body>
+
+  <div class="topnav">
+    <a class="active" href="#home">Home</a>
+    <a href="#guilds">Guilds</a>
+    <a href="#players">Players</a>
+    <div class="search-container">
+      <form action="/action_page.php">
+        <input type="text" size="30" placeholder="Search guilds, players or realms" name="search">
+        <button type="submit"><i class="fa fa-search"></i></button>
+      </form>
+    </div>
+    <div class="topnav-right">
+    <a href="#signup">Sign Up</a>
+    <a href="#login">Log In</a>
+   </div>
+  </div>
+
+
+    <div class="rectangle">
+    <h1 align="center"> "Guild Name" </h1>
+    </div>
+
+    <div class="container">
+      <table class="table table-dark table-striped">
+        <thead>
+          <tr>
+            <th>Guild Progress</th>
+            <th>10/11 Mythic</th>
+            <th>11/11 Heroic</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Average ItemLVL</td>
+            <td>970 (Mythic Group)</td>
+            <td>962 (Heroic Group)</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col" style="background-color:white;">
+    <div class="container">
+  <div class="jumbotron">
+    <h2 class="text-center">Recruiting:</h2>
+  <div class="container">
+    <ul class="list-group">
+      <h5 class="text-center">Tanks</h5>
+    <li class="list-group-item list-group-item-dark">Currently we are not looking for Tanks.</li>
+      <h5 class="text-center">Melee DPS</h5>
+    <li class="list-group-item list-group-item-secondary">DEMON HUNTER - Havoc (1 Spot)</li>
+    <li class="list-group-item list-group-item-warning">ROGUE - Subtlety (1 Spot)</li>
+    <li class="list-group-item list-group-item-primary">SHAMAN - Enhancement (1 Spot)</li>
+      <h5 class="text-center">Ranged DPS</h5>
+    <li class="list-group-item list-group-item-success">HUNTER - Marksman (2 Spots)</li>
+    <li class="list-group-item list-group-item-info">MAGE - Arcane (1 Spot)</li>
+      <h5 class="text-center">Healers</h5>
+    <li class="list-group-item list-group-item-light">PRIEST - Discipline (1 Spot)</li>
+    <li class="list-group-item list-group-item-danger">PALADIN - Holy (1 Spot)</li>
+  </ul>
+</div>
+</div>
+</div>
+</div>
+
+  <div class="col" style="background-color:white;">
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="text-center">Guild Portfolio</h1>
+
+    <p> We at *** Guild are a semi-hardcore raiding guild.<br>
+        Language : English<br>
+        Raid : 2 Days - Tuesday & Wednesday from 7pm EST to 11pm EST<br>
+  <br>
+  <br>
+        We are looking for raiders who have a good attitude towards raiding, etc. ,
+        You should be able to handle criticism if/when its directed at you.
+        Raiders should be logged in 15 minutes prior to raid time, we will supply
+        flasks and feasts for the raiders. etc..<br>
+        <br>
+
+        Outside of raiding, we also have PvP groups that do rated BG's and arena's.
+        We have a team specifically for Mythic Plus's etc.
+
+
+      In this area we need to have a more indepth look of what the guild does. How many days do they raid,
+      what times do they raid (EST,CST, etc.), What do they expect out of a raider,
+      what other activities do they do (PVP, Events, etc.).<br>
+  <br>
+       Any guild accomplishments they want to show or if they want to talk about
+       achievements and whatnot
+    </p>
+  </div>
+</div>
+</div>
+
+<div class="container">
+  <button type="button" class="btn btn-outline-primary btn-block">Apply for Guild!</button>
+</div>
+
+<div class="container">
+  <h2 class="text-center">Players who are in the guild</h2>
+  <table class="table table-dark">
+    <thead>
+      <tr>
+        <th>Charecter</th>
+        <th>Class</th>
+        <th>Spec</th>
+        <th>ItemLvL</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Xube</td>
+        <td>Warlock</td>
+        <td>Demonology</td>
+        <td>917<td>
+      </tr>
+      <tr>
+        <td>Moinur</td>
+        <td>Paladin</td>
+        <td>Retribution</td>
+        <td>973<td>
+      </tr>
+      <tr>
+        <td>Ultron</td>
+        <td>Death Knight</td>
+        <td>Blood</td>
+        <td>981<td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+</body>
+</html>
